@@ -3,3 +3,4 @@
 
 useCase png : 
 
+![alt text](https://raw.githubusercontent.com/Simplon-Roubaix/php_product_seafy-guillaume/master/user_case/useCase.png "UseCase Image")
