@@ -1,3 +1,4 @@
+<?php require 'db/db.php'; ?>
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -9,7 +10,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Favicon -->
-         <link rel="icon" type="image/png" href="img/favicon.jpg" />
+         <link rel="icon" type="image/png" href="favicon.ico" />
 
         <!-- CSS Files -->
         <link rel="stylesheet" href="css/normalize.css">
@@ -24,6 +25,11 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+    <?php foreach($db as $k => $v): ?>
+    <div><?= $k; ?></div>
+    <img src="<?= $v['image']; ?>">
+        <div><?= substr($v['content'], 0,  100); ?>...</div>
+    <?php endforeach; ?>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
