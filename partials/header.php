@@ -12,7 +12,7 @@ define ('BASE_URL', dirname(dirname($_SERVER['SCRIPT_NAME'])));
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<?= BASE_URL; ?>img/favicon.jpg" />
+    <link rel="icon" href="<?= BASE_URL; ?>favicon.ico" />
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="<?= BASE_URL; ?>css/normalize.css">
