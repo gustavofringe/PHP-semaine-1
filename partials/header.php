@@ -6,7 +6,7 @@ define ('BASE_URL', dirname(dirname($_SERVER['SCRIPT_NAME'])));
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Cars</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,8 +15,9 @@ define ('BASE_URL', dirname(dirname($_SERVER['SCRIPT_NAME'])));
     <link rel="icon" type="image/png" href="<?= BASE_URL; ?>img/favicon.jpg" />
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL; ?>css/normalize.css">
+    <link rel="stylesheet" href="<?= BASE_URL; ?>css/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL; ?>css/bootstrap.css">
     <!-- End CSS Files -->
 
     <!-- font files -->
