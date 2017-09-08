@@ -19,14 +19,6 @@ define ('BASE_URL', dirname(dirname($_SERVER['SCRIPT_NAME'])));
     <link rel="stylesheet" href="<?= BASE_URL; ?>css/main.css">
     <link rel="stylesheet" href="<?= BASE_URL; ?>css/bootstrap.css">
     <link rel="stylesheet" href="<?= BASE_URL; ?>css/album.css">
-    <!-- End CSS Files -->
-
-    <!-- font files -->
-    <link href="https://" rel="stylesheet">
-    <!-- End font files -->
-
-
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
 <div class="collapse bg-dark" id="navbarHeader">
