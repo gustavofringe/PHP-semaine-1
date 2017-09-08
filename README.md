@@ -7,4 +7,4 @@
 
 ### wireframe png:
 
-![alt text](URL "UseCase Image")
+![alt text](https://github.com/Simplon-Roubaix/php_product_seafy-guillaume/blob/master/wireframe/wireframe%20index.png "UseCase Image")
