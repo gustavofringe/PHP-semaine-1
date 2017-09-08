@@ -8,7 +8,7 @@ include "partials/header.php"
 
 <section class="d-flex space-between">
 	<img src="<?php echo $db[$_GET['id']]['image']; ?>" class="sizeCars rounded-circle mx-5 my-5">
-	<p><?php echo $db[$_GET['id']]['content']; ?></p>
+	<p class="my-5"><?php echo $db[$_GET['id']]['content']; ?></p>
 </section>
 
 
