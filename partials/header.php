@@ -18,6 +18,7 @@ define ('BASE_URL', dirname(dirname($_SERVER['SCRIPT_NAME'])));
 </head>
 <body>
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-    <h1 class="navbar-brand">Seafy & Guillaume cars</h1>
+    <img class="brave" src="../img/brave.svg" alt="brave">
+    <h1 class="navbar-brand ml-2">Seafy & Guillaume cars</h1>
     <!-- /.navbar-brand -->
 </nav>
