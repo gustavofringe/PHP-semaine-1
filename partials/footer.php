@@ -7,7 +7,6 @@
 <script src="<?= BASE_URL; ?>js/plugins.js"></script>
 <script src="<?= BASE_URL; ?>js/main.js"></script>
 <script src="<?= BASE_URL; ?>js/bootstrap.js"></script>
-
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
