@@ -1,3 +1,7 @@
+<div class="footer d-flex align-items-center">
+	<p class="mx-auto">Copyright by <span>Gustavo</span> & <span>Seafy</span></p>
+</div>
+
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="<?= BASE_URL; ?>js/plugins.js"></script>

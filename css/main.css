@@ -95,7 +95,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*vincent*/
 
+/*index*/
+.sizeCars{
+    width: 15%;
+    height: 15%;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #313336;
+}
+
+.footer p{
+    color: white;
+}
+
+
+span {
+    color: orange;
+}
 
 
 
